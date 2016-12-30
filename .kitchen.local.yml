@@ -1,0 +1,8 @@
+---
+driver_config:
+  vagrantfiles:
+  - VagrantAdditionalConfig.rb
+
+provisioner:
+  name: policyfile_zero
+  chef_omnibus_install_options: -d /tmp/vagrant-cache/vagrant_omnibus
